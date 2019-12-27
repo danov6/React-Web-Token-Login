@@ -1,0 +1,106 @@
+.login-body-wrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background: #131929;
+}
+
+.login-wrapper {
+    position: absolute;
+    top: 10%;
+    width: 380px;
+    left: calc(50% - 190px);
+    padding: 45px 50px 50px 60px;
+    border-radius: 8px;
+    background: white;
+}
+
+.login-logo-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 2px;
+    margin: 0 0 40px 0;
+}
+
+.login-logo-wrapper img {
+    width: 25px;
+    display: block;
+    /*outline: 1px dotted red;*/
+    margin: 0 auto 10px auto;
+}
+
+.login-logo-wrapper p {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.9em;
+    /*margin-left: 5px;*/
+    margin-top: 1px;
+}
+
+.login-logo-wrapper p span {
+    font-weight: bold;
+}
+
+/* Input Fields */
+/* Input Fields */
+/* Input Fields */
+.login-wrapper input[type=text], .login-wrapper input[type=password] {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #131929;
+    /*padding: 2px 15px;*/
+    padding-left: 15px;
+    /*line-height: 62px;*/
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    color: #131929;
+}
+
+.login-wrapper .form-submit {
+    width: 100%;
+    height: 36px;
+    border-radius: 4px;
+    line-height: 35px;
+    margin: 20px 0;
+    background: #131929;
+    border: none;
+    color: white;
+    font-size: 0.85em;
+    font-weight: bold;
+    -moz-transition: background 0.25s, -moz-transform ease-in-out 0.5s;
+    -webkit-transition: background 0.25s, -moz-transform ease-in-out 0.5s;
+    -o-transition: background 0.25s, -moz-transform ease-in-out 0.5s;
+    transition: background 0.25s, -moz-transform ease-in-out 0.5s;
+}
+
+.login-wrapper .form-submit:hover {
+    background: #1F305E;
+}
+
+.login-wrapper .form-submit:disabled:hover {
+    cursor: not-allowed;
+    background: #131929;
+}
+
+/* Links */
+/* Links */
+/* Links */
+.login-wrapper .link {
+    font-size: 0.85em;
+    color: #131929;
+    display: inline-block;
+    margin-bottom: 5px;
+    -moz-transition: color 0.25s, -moz-transform ease-in-out 0.5s;
+    -webkit-transition: color 0.25s, -moz-transform ease-in-out 0.5s;
+    -o-transition: color 0.25s, -moz-transform ease-in-out 0.5s;
+    transition: color 0.25s, -moz-transform ease-in-out 0.5s;
+}
+
+.login-wrapper .link:hover {
+    color: #1F305E;
+}
+
+.login-wrapper .link span {
+    text-decoration: underline;
+}
